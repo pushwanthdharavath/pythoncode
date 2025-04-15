@@ -34,3 +34,7 @@ print(f"\nNumber of face points (features): {num_face_points}")
 # 8. If you want to check the unique expressions (labels) in your dataset
 print("\nUnique expressions (labels) in the dataset:")
 print(df['label'].unique())
+# 9. Count the number of photos in each class (label)
+print("\nNumber of photos in each class (expression):")
+print(df['label'].value_counts())
+
